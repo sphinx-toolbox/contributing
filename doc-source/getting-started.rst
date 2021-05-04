@@ -49,7 +49,7 @@ With bash:
 
 .. code-block:: bash
 
-	(repo-helper) $
+	(sphinx-toolbox) $
 
 
 .. _GitHub: https://github.com/
