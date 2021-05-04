@@ -67,4 +67,5 @@ autodoc_default_options = {
 nitpicky = True
 del version
 del release
-html_title = "repo-helper Contributing Guide"
+html_title = "sphinx-toolbox Contributing Guide"
+html_logo = "sphinx_toolbox.png"
