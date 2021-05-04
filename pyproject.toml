@@ -5,7 +5,7 @@ build-backend = "whey"
 [project]
 name = "contributing"
 version = "2021.0.0"
-description = "Contributing guide for repo-helper and associated projects"
+description = "Contributing guide for projects in the sphinx-toolbox organization."
 readme = "README.rst"
 keywords = []
 dynamic = [ "requires-python", "classifiers", "dependencies",]
@@ -18,10 +18,10 @@ name = "Dominic Davis-Foster"
 email = "dominic@davis-foster.co.uk"
 
 [project.urls]
-Homepage = "https://github.com/repo-helper/contributing"
-"Issue Tracker" = "https://github.com/repo-helper/contributing/issues"
-"Source Code" = "https://github.com/repo-helper/contributing"
-Documentation = "https://contributing.repo-helper.uk"
+Homepage = "https://github.com/sphinx-toolbox/contributing"
+"Issue Tracker" = "https://github.com/sphinx-toolbox/contributing/issues"
+"Source Code" = "https://github.com/sphinx-toolbox/contributing"
+Documentation = "https://contributing-to-sphinx-toolbox.readthedocs.io"
 
 [tool.whey]
 base-classifiers = []
@@ -33,7 +33,7 @@ license-key = "MIT"
 [tool.importcheck]
 
 [tool.sphinx-pyproject]
-github_username = "repo-helper"
+github_username = "sphinx-toolbox"
 github_repository = "contributing"
 author = "Dominic Davis-Foster"
 project = "contributing"
