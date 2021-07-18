@@ -24,10 +24,6 @@ Homepage = "https://github.com/sphinx-toolbox/contributing"
 "Source Code" = "https://github.com/sphinx-toolbox/contributing"
 Documentation = "https://contributing-to-sphinx-toolbox.readthedocs.io"
 
-[tool.mkrecipe]
-conda-channels = [ "sphinx-toolbox",]
-extras = "all"
-
 [tool.whey]
 base-classifiers = []
 python-versions = [ "3.8",]
