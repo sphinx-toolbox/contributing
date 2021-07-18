@@ -24,10 +24,6 @@ Homepage = "https://github.com/sphinx-toolbox/contributing"
 "Source Code" = "https://github.com/sphinx-toolbox/contributing"
 Documentation = "https://contributing-to-sphinx-toolbox.readthedocs.io"
 
-[tool.mkrecipe]
-conda-channels = [ "sphinx-toolbox",]
-extras = "all"
-
 [tool.whey]
 base-classifiers = []
 python-versions = [ "3.8",]
@@ -51,10 +47,10 @@ extensions = [
     "sphinx_toolbox.more_autosummary",
     "sphinx_toolbox.documentation_summary",
     "sphinx_toolbox.tweaks.param_dash",
+    "sphinx_toolbox.tweaks.latex_layout",
     "sphinx_toolbox.tweaks.latex_toc",
     "sphinx.ext.intersphinx",
     "sphinx.ext.mathjax",
-    "sphinxcontrib.httpdomain",
     "sphinxcontrib.extras_require",
     "sphinx.ext.todo",
     "sphinxemoji.sphinxemoji",
@@ -86,7 +82,6 @@ toctree_plus_types = [
     "exception",
     "flag",
     "function",
-    "method",
     "namedtuple",
     "protocol",
     "role",
@@ -114,3 +109,10 @@ autodoc_exclude_members = [
     "__abstractmethods__",
     "__hash__",
 ]
+
+[tool.mypy]
+python_version = "3.8"
+namespace_packages = true
+check_untyped_defs = true
+warn_unused_ignores = true
+no_implicit_optional = true
